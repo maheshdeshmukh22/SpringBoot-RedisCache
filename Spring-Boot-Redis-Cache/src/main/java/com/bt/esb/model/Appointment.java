@@ -8,6 +8,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "Appointment")
 public class Appointment implements Serializable {
 
+	//added comment
     private String refNum;
     private String serviceType;
     private String action;
